@@ -1,0 +1,24 @@
+#include "../shared/shared.h"
+
+t_log* logger;
+
+void leer_config(char *ip, char *puerto) {
+	char *ip_aux, *puerto_aux;
+	t_config *confile;
+	confile = config_create("conexion.config");
+
+	log_trace(logger, "logger inizializado");
+	log_trace(logger, "config inizializado");
+
+	ip_aux = config_get_string_value(confile, "IP");
+	puerto_aux = config_get_string_value(confile, "PUERTO");
+
+	ip = malloc(sizeof(string_length(ip_aux)));
+	puerto = malloc(sizeof(string_length(puerto_aux)));
+
+	strcpy(ip, ip_aux);
+	strcpy(puerto, puerto_aux);
+
+	log_debug(logger, "ip: %s", ip);
+	log_debug(logger, "puerto: %s", puerto);
+}

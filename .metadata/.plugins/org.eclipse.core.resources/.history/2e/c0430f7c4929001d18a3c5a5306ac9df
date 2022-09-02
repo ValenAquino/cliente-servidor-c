@@ -1,0 +1,28 @@
+#include "servidor.h"
+
+t_log *logger;
+
+int main(void) {
+	char *ip, *puerto;
+	int server_fd, cliente_fd;
+
+	logger = log_create("sv.log", "SERVIDOR", true, LOG_LEVEL_TRACE);
+	leer_config(&ip, &puerto);
+
+	server_fd = iniciar_sv(ip, puerto);
+	cliente_fd = esperar_cliente(server_fd);
+
+	close(server_fd);
+	close(cliente_fd);
+	return EXIT_SUCCESS;
+}
+
+int esperar_cliente(int server_fd) {
+	struct addrinfo cliente;
+
+	int cl_size = sizeof(cliente);
+	int cliente_fd = accept(server_fd, &cliente, &cl_size);
+	log_info(logger, "Se ha conectado un cliiente");
+
+	return cliente_fd;
+}

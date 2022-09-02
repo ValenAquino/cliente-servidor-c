@@ -1,0 +1,182 @@
+[TRACE] 11:37:25:373 CLIENTE/(2281:2281): logger inizializado
+[TRACE] 11:37:25:373 CLIENTE/(2281:2281): config inizializado
+[TRACE] 11:37:45:906 CLIENTE/(2302:2302): logger inizializado
+[TRACE] 11:37:45:907 CLIENTE/(2302:2302): config inizializado
+[TRACE] 11:39:00:841 CLIENTE/(2410:2410): logger inizializado
+[TRACE] 11:39:01:821 CLIENTE/(2410:2410): config inizializado
+[DEBUG] 11:39:05:728 CLIENTE/(2410:2410): ip: 127.0.0.1
+[DEBUG] 11:39:06:589 CLIENTE/(2410:2410): puerto: 4444
+[TRACE] 12:05:28:264 CLIENTE/(2667:2667): logger inizializado
+[TRACE] 12:05:28:264 CLIENTE/(2667:2667): config inizializado
+[DEBUG] 12:05:28:264 CLIENTE/(2667:2667): ip: 127.0.0.1
+[DEBUG] 12:05:28:264 CLIENTE/(2667:2667): puerto: 4444
+[INFO] 12:05:28:264 CLIENTE/(2667:2667): Se ha realizado la conexion con exito
+[TRACE] 12:08:35:547 CLIENTE/(2799:2799): logger inizializado
+[TRACE] 12:08:35:548 CLIENTE/(2799:2799): config inizializado
+[DEBUG] 12:08:35:548 CLIENTE/(2799:2799): ip: 127.0.0.1
+[DEBUG] 12:08:35:548 CLIENTE/(2799:2799): puerto: 4444
+[INFO] 12:08:35:548 CLIENTE/(2799:2799): Se ha realizado la conexion con exito
+[DEBUG] 12:22:01:034 CLIENTE/(2944:2944): 14, Valentin
+[TRACE] 12:22:01:035 CLIENTE/(2944:2944): logger inizializado
+[TRACE] 12:22:01:035 CLIENTE/(2944:2944): config inizializado
+[DEBUG] 12:22:01:035 CLIENTE/(2944:2944): ip: 127.0.0.1
+[DEBUG] 12:22:01:035 CLIENTE/(2944:2944): puerto: 4444
+[INFO] 12:22:01:035 CLIENTE/(2944:2944): no se ha podido establecer una conexion con el servidor
+[TRACE] 22:16:37:783 CLIENTE/(6691:6691): logger inizializado
+[TRACE] 22:16:37:784 CLIENTE/(6691:6691): config inizializado
+[DEBUG] 22:16:37:784 CLIENTE/(6691:6691): ip: 127.0.0.1
+[DEBUG] 22:16:37:784 CLIENTE/(6691:6691): puerto: 4444
+[INFO] 22:16:37:784 CLIENTE/(6691:6691): Se ha realizado la conexion con exito
+[DEBUG] 22:16:37:784 CLIENTE/(6691:6691): 14, Valentin
+[TRACE] 22:19:51:024 CLIENTE/(6891:6891): logger inizializado
+[TRACE] 22:19:51:024 CLIENTE/(6891:6891): config inizializado
+[DEBUG] 22:19:51:024 CLIENTE/(6891:6891): ip: 127.0.0.1
+[DEBUG] 22:19:51:024 CLIENTE/(6891:6891): puerto: 4444
+[INFO] 22:19:51:024 CLIENTE/(6891:6891): Se ha realizado la conexion con exito
+[DEBUG] 22:19:51:024 CLIENTE/(6891:6891): 14, Valentin
+[TRACE] 22:22:52:010 CLIENTE/(7005:7005): logger inizializado
+[TRACE] 22:22:52:011 CLIENTE/(7005:7005): config inizializado
+[DEBUG] 22:22:52:011 CLIENTE/(7005:7005): ip: 127.0.0.1
+[DEBUG] 22:22:52:011 CLIENTE/(7005:7005): puerto: 4444
+[INFO] 22:36:10:999 CLIENTE/(7005:7005): Se ha realizado la conexion con exito
+[DEBUG] 22:36:30:525 CLIENTE/(7005:7005): 14, Valentin
+[TRACE] 22:41:59:954 CLIENTE/(7412:7412): logger inizializado
+[TRACE] 22:41:59:954 CLIENTE/(7412:7412): config inizializado
+[DEBUG] 22:41:59:954 CLIENTE/(7412:7412): ip: 127.0.0.1
+[DEBUG] 22:41:59:954 CLIENTE/(7412:7412): puerto: 4444
+[INFO] 22:42:02:563 CLIENTE/(7412:7412): Se ha realizado la conexion con exito
+[DEBUG] 22:42:03:740 CLIENTE/(7412:7412): 14, Valentin
+[TRACE] 22:45:52:220 CLIENTE/(7534:7534): logger inizializado
+[TRACE] 22:45:52:220 CLIENTE/(7534:7534): config inizializado
+[DEBUG] 22:45:52:220 CLIENTE/(7534:7534): ip: 127.0.0.1
+[DEBUG] 22:45:52:220 CLIENTE/(7534:7534): puerto: 4444
+[INFO] 22:45:52:856 CLIENTE/(7534:7534): Se ha realizado la conexion con exito
+[DEBUG] 22:45:54:406 CLIENTE/(7534:7534): 14, Valentin
+[TRACE] 22:53:20:275 CLIENTE/(7794:7794): logger inizializado
+[TRACE] 22:53:20:275 CLIENTE/(7794:7794): config inizializado
+[DEBUG] 22:53:20:275 CLIENTE/(7794:7794): ip: 127.0.0.1
+[DEBUG] 22:53:20:275 CLIENTE/(7794:7794): puerto: 4444
+[INFO] 22:53:20:276 CLIENTE/(7794:7794): Se ha realizado la conexion con exito
+[DEBUG] 22:53:20:276 CLIENTE/(7794:7794): 14, Valentin
+[TRACE] 22:56:09:163 CLIENTE/(8004:8004): logger inizializado
+[TRACE] 22:56:09:163 CLIENTE/(8004:8004): config inizializado
+[DEBUG] 22:56:09:163 CLIENTE/(8004:8004): ip: 127.0.0.1
+[DEBUG] 22:56:09:163 CLIENTE/(8004:8004): puerto: 4444
+[INFO] 22:56:09:164 CLIENTE/(8004:8004): Se ha realizado la conexion con exito
+[DEBUG] 22:56:09:164 CLIENTE/(8004:8004): 14, Valentin
+[TRACE] 22:59:40:672 CLIENTE/(8225:8225): logger inizializado
+[TRACE] 22:59:40:672 CLIENTE/(8225:8225): config inizializado
+[DEBUG] 22:59:40:672 CLIENTE/(8225:8225): ip: 127.0.0.1
+[DEBUG] 22:59:40:672 CLIENTE/(8225:8225): puerto: 4444
+[INFO] 22:59:41:695 CLIENTE/(8225:8225): Se ha realizado la conexion con exito
+[DEBUG] 22:59:42:355 CLIENTE/(8225:8225): 14, Valentin
+[TRACE] 23:00:40:539 CLIENTE/(8311:8311): logger inizializado
+[TRACE] 23:00:40:539 CLIENTE/(8311:8311): config inizializado
+[DEBUG] 23:00:40:539 CLIENTE/(8311:8311): ip: 127.0.0.1
+[DEBUG] 23:00:40:539 CLIENTE/(8311:8311): puerto: 4444
+[INFO] 23:00:42:114 CLIENTE/(8311:8311): Se ha realizado la conexion con exito
+[DEBUG] 23:00:46:733 CLIENTE/(8311:8311): 14, Valentin
+[TRACE] 23:04:02:497 CLIENTE/(8415:8415): logger inizializado
+[TRACE] 23:04:02:498 CLIENTE/(8415:8415): config inizializado
+[DEBUG] 23:04:02:498 CLIENTE/(8415:8415): ip: 127.0.0.1
+[DEBUG] 23:04:02:498 CLIENTE/(8415:8415): puerto: 4444
+[INFO] 23:04:02:498 CLIENTE/(8415:8415): no se ha podido establecer una conexion con el servidor
+[TRACE] 23:04:25:141 CLIENTE/(8437:8437): logger inizializado
+[TRACE] 23:04:25:144 CLIENTE/(8437:8437): config inizializado
+[DEBUG] 23:04:25:145 CLIENTE/(8437:8437): ip: 127.0.0.1
+[DEBUG] 23:04:25:145 CLIENTE/(8437:8437): puerto: 4444
+[INFO] 23:04:25:145 CLIENTE/(8437:8437): no se ha podido establecer una conexion con el servidor
+[TRACE] 23:05:21:100 CLIENTE/(8604:8604): logger inizializado
+[TRACE] 23:05:21:100 CLIENTE/(8604:8604): config inizializado
+[DEBUG] 23:05:21:100 CLIENTE/(8604:8604): ip: 127.0.0.1
+[DEBUG] 23:05:21:100 CLIENTE/(8604:8604): puerto: 4444
+[INFO] 23:05:21:100 CLIENTE/(8604:8604): Se ha realizado la conexion con exito
+[DEBUG] 23:05:21:100 CLIENTE/(8604:8604): 14, Valentin
+[TRACE] 23:06:59:700 CLIENTE/(8707:8707): logger inizializado
+[TRACE] 23:06:59:700 CLIENTE/(8707:8707): config inizializado
+[DEBUG] 23:06:59:701 CLIENTE/(8707:8707): ip: 127.0.0.1
+[DEBUG] 23:06:59:701 CLIENTE/(8707:8707): puerto: 4444
+[INFO] 23:06:59:701 CLIENTE/(8707:8707): Se ha realizado la conexion con exito
+[DEBUG] 23:06:59:701 CLIENTE/(8707:8707): 14, Valentin
+[TRACE] 23:09:51:876 CLIENTE/(8814:8814): logger inizializado
+[TRACE] 23:09:51:876 CLIENTE/(8814:8814): config inizializado
+[DEBUG] 23:09:51:876 CLIENTE/(8814:8814): ip: 127.0.0.1
+[DEBUG] 23:09:51:876 CLIENTE/(8814:8814): puerto: 4444
+[INFO] 23:09:51:876 CLIENTE/(8814:8814): Se ha realizado la conexion con exito
+[DEBUG] 23:09:51:876 CLIENTE/(8814:8814): 14, Valentin
+[TRACE] 23:17:57:213 CLIENTE/(9049:9049): logger inizializado
+[TRACE] 23:17:57:213 CLIENTE/(9049:9049): config inizializado
+[DEBUG] 23:17:57:213 CLIENTE/(9049:9049): ip: 127.0.0.1
+[DEBUG] 23:17:57:213 CLIENTE/(9049:9049): puerto: 4444
+[INFO] 23:17:57:214 CLIENTE/(9049:9049): Se ha realizado la conexion con exito
+[DEBUG] 23:17:57:214 CLIENTE/(9049:9049): 14, Valentin
+[TRACE] 23:24:21:589 CLIENTE/(9294:9294): logger inizializado
+[TRACE] 23:24:21:589 CLIENTE/(9294:9294): config inizializado
+[DEBUG] 23:24:21:589 CLIENTE/(9294:9294): ip: 127.0.0.1
+[DEBUG] 23:24:21:589 CLIENTE/(9294:9294): puerto: 4444
+[INFO] 23:24:21:589 CLIENTE/(9294:9294): Se ha realizado la conexion con exito
+[DEBUG] 23:24:21:589 CLIENTE/(9294:9294): 14, Valentin
+[TRACE] 23:25:29:749 CLIENTE/(9356:9356): logger inizializado
+[TRACE] 23:25:29:749 CLIENTE/(9356:9356): config inizializado
+[DEBUG] 23:25:29:749 CLIENTE/(9356:9356): ip: 127.0.0.1
+[DEBUG] 23:25:29:749 CLIENTE/(9356:9356): puerto: 4444
+[INFO] 23:25:29:750 CLIENTE/(9356:9356): Se ha realizado la conexion con exito
+[DEBUG] 23:25:29:750 CLIENTE/(9356:9356): 14, Valentin
+[TRACE] 23:28:09:662 CLIENTE/(9738:9738): logger inizializado
+[TRACE] 23:28:09:662 CLIENTE/(9738:9738): config inizializado
+[DEBUG] 23:28:09:662 CLIENTE/(9738:9738): ip: 127.0.0.1
+[DEBUG] 23:28:09:662 CLIENTE/(9738:9738): puerto: 4444
+[INFO] 23:28:09:663 CLIENTE/(9738:9738): Se ha realizado la conexion con exito
+[DEBUG] 23:28:09:663 CLIENTE/(9738:9738): 14, Valentin
+[TRACE] 23:37:19:304 CLIENTE/(10616:10616): logger inizializado
+[TRACE] 23:37:19:304 CLIENTE/(10616:10616): config inizializado
+[DEBUG] 23:37:19:304 CLIENTE/(10616:10616): ip: 127.0.0.1
+[DEBUG] 23:37:19:304 CLIENTE/(10616:10616): puerto: 4444
+[INFO] 23:37:19:305 CLIENTE/(10616:10616): Se ha realizado la conexion con exito
+[DEBUG] 23:37:19:305 CLIENTE/(10616:10616): 14, Valentin
+[TRACE] 23:39:44:135 CLIENTE/(10776:10776): logger inizializado
+[TRACE] 23:39:44:135 CLIENTE/(10776:10776): config inizializado
+[DEBUG] 23:39:44:135 CLIENTE/(10776:10776): ip: 127.0.0.1
+[DEBUG] 23:39:44:135 CLIENTE/(10776:10776): puerto: 4444
+[INFO] 23:39:44:136 CLIENTE/(10776:10776): Se ha realizado la conexion con exito
+[DEBUG] 23:39:44:136 CLIENTE/(10776:10776): 14, Valentin
+[TRACE] 23:41:19:295 CLIENTE/(10886:10886): logger inizializado
+[TRACE] 23:41:19:295 CLIENTE/(10886:10886): config inizializado
+[DEBUG] 23:41:19:295 CLIENTE/(10886:10886): ip: 127.0.0.1
+[DEBUG] 23:41:19:295 CLIENTE/(10886:10886): puerto: 4444
+[INFO] 23:41:19:296 CLIENTE/(10886:10886): Se ha realizado la conexion con exito
+[DEBUG] 23:41:19:296 CLIENTE/(10886:10886): 14, Valentin
+[TRACE] 23:42:26:591 CLIENTE/(10965:10965): logger inizializado
+[TRACE] 23:42:26:591 CLIENTE/(10965:10965): config inizializado
+[DEBUG] 23:42:26:591 CLIENTE/(10965:10965): ip: 127.0.0.1
+[DEBUG] 23:42:26:591 CLIENTE/(10965:10965): puerto: 4444
+[INFO] 23:42:26:592 CLIENTE/(10965:10965): Se ha realizado la conexion con exito
+[DEBUG] 23:42:26:592 CLIENTE/(10965:10965): 14, Valentin
+[TRACE] 23:43:40:871 CLIENTE/(11043:11043): logger inizializado
+[TRACE] 23:43:40:871 CLIENTE/(11043:11043): config inizializado
+[DEBUG] 23:43:40:871 CLIENTE/(11043:11043): ip: 127.0.0.1
+[DEBUG] 23:43:40:871 CLIENTE/(11043:11043): puerto: 4444
+[INFO] 23:43:40:872 CLIENTE/(11043:11043): Se ha realizado la conexion con exito
+[DEBUG] 23:43:40:872 CLIENTE/(11043:11043): 14, Valentin
+[TRACE] 01:09:44:956 CLIENTE/(14928:14928): logger inizializado
+[TRACE] 01:09:44:958 CLIENTE/(14928:14928): config inizializado
+[DEBUG] 01:09:44:958 CLIENTE/(14928:14928): ip: 127.0.0.1
+[DEBUG] 01:09:44:958 CLIENTE/(14928:14928): puerto: 4444
+[INFO] 01:09:44:959 CLIENTE/(14928:14928): Se ha realizado la conexion con exito
+[DEBUG] 01:09:44:959 CLIENTE/(14928:14928): 14, Valentin
+[TRACE] 01:38:36:901 CLIENTE/(16891:16891): logger inizializado
+[TRACE] 01:38:36:902 CLIENTE/(16891:16891): config inizializado
+[DEBUG] 01:38:36:902 CLIENTE/(16891:16891): ip: 127.0.0.1
+[DEBUG] 01:38:36:902 CLIENTE/(16891:16891): puerto: 4444
+[INFO] 01:38:36:902 CLIENTE/(16891:16891): Se ha realizado la conexion con exito
+[DEBUG] 01:38:36:902 CLIENTE/(16891:16891): 14, Valentin
+[TRACE] 01:41:16:829 CLIENTE/(17438:17438): logger inizializado
+[TRACE] 01:41:16:829 CLIENTE/(17438:17438): config inizializado
+[DEBUG] 01:41:16:829 CLIENTE/(17438:17438): ip: 127.0.0.1
+[DEBUG] 01:41:16:829 CLIENTE/(17438:17438): puerto: 4444
+[TRACE] 01:41:59:325 CLIENTE/(17474:17474): logger inizializado
+[TRACE] 01:41:59:325 CLIENTE/(17474:17474): config inizializado
+[DEBUG] 01:41:59:325 CLIENTE/(17474:17474): ip: 127.0.0.1
+[DEBUG] 01:41:59:325 CLIENTE/(17474:17474): puerto: 4444
+[INFO] 01:41:59:325 CLIENTE/(17474:17474): Se ha realizado la conexion con exito
+[DEBUG] 01:41:59:325 CLIENTE/(17474:17474): 14, Valentin

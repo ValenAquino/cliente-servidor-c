@@ -1,0 +1,15 @@
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.Foreground.SystemDefault=false
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+coverage_stylePreferences=NONE
+coverage_text=false
+eclipse.preferences.version=1
+highlight.text.style=NONE
+nocoverage_stylePreferences=NONE
+nocoverage_text=false
+org.eclipse.cdt.ui.occurrenceIndicationColor=36,31,49
+org.eclipse.cdt.ui.writeOccurrenceIndicationColor=36,31,49
+spellingEnabled=false
+thcoverage_stylePreferences=NONE
+thcoverage_text=false

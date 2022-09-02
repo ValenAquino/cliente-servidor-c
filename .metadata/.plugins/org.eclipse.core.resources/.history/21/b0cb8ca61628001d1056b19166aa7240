@@ -1,0 +1,29 @@
+#ifndef SHARED_H_
+#define SHARED_H_
+
+//Uso general
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<assert.h>
+#include<signal.h>
+
+//Sockets
+#include<sys/socket.h>
+#include<unistd.h>
+#include<netdb.h>
+
+//Commons
+#include<commons/log.h>
+#include<commons/config.h>
+#include<commons/collections/list.h>
+
+//// Estructuras
+//typedef struct {
+//	int num;
+//	char *nombre;
+//} tsDatos;
+
+// Prototipos
+
+#endif /* SHARED_H_ */

@@ -1,0 +1,16 @@
+#ifndef CLIENTE_H_
+#define CLIENTE_H_
+
+// Bibliotecas
+#include <shared/shared.h>
+
+// Estructuras
+typedef struct {
+	int num;
+	char *nombre;
+}tsDatos;
+
+// Prototipos
+int crear_conexion(char *, char *);
+
+#endif /* CLIENTE_H_ */

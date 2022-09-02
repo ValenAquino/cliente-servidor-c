@@ -1,0 +1,10 @@
+#ifndef CLIENTE_H_
+#define CLIENTE_H_
+
+// Bibliotecas
+#include <shared/shared.h>
+
+// Prototipos
+int crear_conexion(char *, char *);
+
+#endif /* CLIENTE_H_ */
