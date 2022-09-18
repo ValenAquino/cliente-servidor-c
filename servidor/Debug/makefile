@@ -39,13 +39,13 @@ all: main-build
 main-build: servidor
 
 dependents:
-	-cd /home/utnso/Documents/pruebas/shared/Debug && $(MAKE) clean all
+	-cd ./shared/Debug && $(MAKE) clean all
 
 # Tool invocations
-servidor: $(OBJS) $(USER_OBJS) /home/utnso/Documents/pruebas/shared/Debug/libshared.so makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+servidor: $(OBJS) $(USER_OBJS) ./shared/Debug/libshared.so makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "servidor" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"./shared/Debug" -o "servidor" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -55,6 +55,6 @@ clean:
 	-@echo ' '
 
 .PHONY: all clean dependents main-build
-/home/utnso/Documents/pruebas/shared/Debug/libshared.so:
+./shared/Debug/libshared.so:
 
 -include ../makefile.targets
