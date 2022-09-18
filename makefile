@@ -1,4 +1,4 @@
-H_SRCS=$(shell find shared/shared -iname "*.h" | tr '\n' ' ')
+H_SRCS=$(shell  find ./shared -type f -iname "*.h" -exec basename {} \;)
 
 ifneq ($(shell id -un),root)
 SUDO=sudo
@@ -8,6 +8,8 @@ all:
 	@echo "Compilando SHARED"
 	@make all -C ./shared/Debug
 	@echo "----------------- \n"
+
+compilar:
 	@echo "Compilando CLIENTE"
 	@make all -C ./cliente/Debug
 	@echo "----------------- \n"
@@ -16,12 +18,12 @@ all:
 	@echo "----------------- \n"
 
 install: all
-	$(SUDO) cp -u ./shared/Debug/libshared.so /usr/lib
+	$(SUDO) cp -u build/libshared.so /usr/lib
 	$(SUDO) cp --parents -u $(H_SRCS) /usr/include
 
 uninstall:
 	$(SUDO) rm -f /usr/lib/libshared.so
-	$(SUDO) rm -rf /usr/include/sharelibshared
+	$(SUDO) rm -rf /usr/include/shared
 	
 clean: uninstall
 	@make clean -C ./shared/Debug
