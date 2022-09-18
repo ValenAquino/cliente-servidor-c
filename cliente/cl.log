@@ -306,3 +306,15 @@
 [DEBUG] 11:38:38:354 CLIENTE/(2057:2057): ip: 127.0.0.1
 [DEBUG] 11:38:38:354 CLIENTE/(2057:2057): puerto: 4444
 [INFO] 11:38:38:354 CLIENTE/(2057:2057): no se ha podido establecer una conexion con el servidor
+[TRACE] 13:58:19:628 CLIENTE/(6850:6850): logger inizializado
+[TRACE] 13:58:19:628 CLIENTE/(6850:6850): config inizializado
+[DEBUG] 13:58:19:628 CLIENTE/(6850:6850): ip: 127.0.0.1
+[DEBUG] 13:58:19:628 CLIENTE/(6850:6850): puerto: 4444
+[INFO] 13:58:19:628 CLIENTE/(6850:6850): Se ha realizado la conexion con exito
+[DEBUG] 13:58:21:923 CLIENTE/(6850:6850): 5, HOla
+[TRACE] 14:01:04:698 CLIENTE/(7057:7057): logger inizializado
+[TRACE] 14:01:04:699 CLIENTE/(7057:7057): config inizializado
+[DEBUG] 14:01:04:699 CLIENTE/(7057:7057): ip: 127.0.0.1
+[DEBUG] 14:01:04:699 CLIENTE/(7057:7057): puerto: 4444
+[INFO] 14:01:05:721 CLIENTE/(7057:7057): Se ha realizado la conexion con exito
+[DEBUG] 14:02:11:496 CLIENTE/(7057:7057): 24, Hola mensaje 1234567890

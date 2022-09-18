@@ -1,7 +1,6 @@
 #include "../shared/shared.h"
 
 void leer_config(char **ip, char **puerto) {
-	int b;
 	t_config *confile;
 	confile = config_create("conexion.config");
 

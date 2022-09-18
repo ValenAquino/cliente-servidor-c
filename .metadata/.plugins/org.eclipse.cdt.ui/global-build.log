@@ -24,3 +24,13 @@ Invoking: GCC C Linker
 gcc -L"./shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lreadline -lcommons
 Finished building target: cliente
  
+14:00:38 **** Incremental Build of configuration Debug for project shared ****
+make all 
+make: Nothing to be done for 'all'.
+14:00:39 **** Incremental Build of configuration Debug for project cliente ****
+make all 
+Building target: cliente
+Invoking: GCC C Linker
+gcc -L"./shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lreadline -lcommons
+Finished building target: cliente
+ 

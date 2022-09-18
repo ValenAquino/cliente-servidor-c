@@ -4,27 +4,25 @@ ifneq ($(shell id -un),root)
 SUDO=sudo
 endif
 
-all:
-	@echo "Compilando SHARED"
-	@make all -C ./shared/Debug
-	@echo "----------------- \n"
-
-compilar:
+all: install
 	@echo "Compilando CLIENTE"
 	@make all -C ./cliente/Debug
-	@echo "----------------- \n"
+	@echo "\n-----------------\n"
 	@echo "Compilando SERVIDOR"
 	@make all -C ./servidor/Debug
-	@echo "----------------- \n"
-mos:
-	@echo $(H_SRCS)
+	@echo "\n-----------------\n"
 
-install: all makefolder
+install: makefolder
+	@echo "\nCompilando SHARED"
+	@make all -C ./shared/Debug
+	@echo "\n-----------------\n"
+	@echo "Instalando SHARED"
 	$(SUDO) cp -u ./shared/Debug/libshared.so /usr/lib
 	$(SUDO) cp -u ./shared/shared/$(H_SRCS) /usr/include/shared
+	@echo "\n-----------------\n"
 
 makefolder:
-	$(SUDO) mkdir /usr/include/shared
+	@$(SUDO) mkdir -p /usr/include/shared
 
 uninstall:
 	$(SUDO) rm -f /usr/lib/libshared.so
@@ -32,3 +30,8 @@ uninstall:
 	
 clean: uninstall
 	@make clean -C ./shared/Debug
+	@echo ">>> shared cleaned \n"
+	@make clean -C ./cliente/Debug
+	@echo ">>> cliente cleaned \n"
+	@make clean -C ./servidor/Debug
+	@echo ">>> servidor cleaned \n"

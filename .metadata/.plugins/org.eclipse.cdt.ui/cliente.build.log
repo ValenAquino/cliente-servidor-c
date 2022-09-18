@@ -1,4 +1,4 @@
-11:38:07 **** Build of configuration Debug for project cliente ****
+14:00:39 **** Incremental Build of configuration Debug for project cliente ****
 make all 
 Building target: cliente
 Invoking: GCC C Linker
@@ -6,5 +6,5 @@ gcc -L"./shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lreadline -lcomm
 Finished building target: cliente
  
 
-11:38:08 Build Finished. 0 errors, 0 warnings. (took 1s.317ms)
+14:00:40 Build Finished. 0 errors, 0 warnings. (took 691ms)
 
