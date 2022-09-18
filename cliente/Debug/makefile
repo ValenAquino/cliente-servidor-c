@@ -39,7 +39,7 @@ all: main-build
 main-build: cliente
 
 dependents:
-	-cd /home/utnso/Documents/pruebas/shared/Debug && $(MAKE) all
+	-cd /home/utnso/Documents/pruebas/shared/Debug && $(MAKE) clean all
 
 # Tool invocations
 cliente: $(OBJS) $(USER_OBJS) /home/utnso/Documents/pruebas/shared/Debug/libshared.so makefile objects.mk $(OPTIONAL_TOOL_DEPS)

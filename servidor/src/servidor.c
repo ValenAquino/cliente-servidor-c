@@ -64,24 +64,20 @@ int iniciar_sv(char *ip, char *puerto) {
 }
 
 int esperar_cliente(int server_fd) {
-	struct addrinfo cliente;
-
-	int cl_size = sizeof(cliente);
-	int cliente_fd = accept(server_fd, &cliente, &cl_size);
+	int cliente_fd = accept(server_fd, NULL, NULL);
 	log_info(logger, "Se ha conectado un cliiente");
 
 	return cliente_fd;
 }
 
-void recibir_paquete(cliente_fd) {
+void recibir_paquete(int cliente_fd) {
 	tsDatos *dato = malloc(sizeof(tsDatos));
-	int size_nombre;
 
-	recv(cliente_fd, &size_nombre, sizeof(int), 0);
 	recv(cliente_fd, &dato->num, sizeof(int), 0);
 
-	dato->nombre = malloc(size_nombre);
-	recv(cliente_fd, dato->nombre, size_nombre, 0);
+	dato->mensaje = malloc(dato->num);
 
-	log_info(logger, "%d, %s", dato->num, dato->nombre);
+	recv(cliente_fd, dato->mensaje, dato->num, 0);
+
+	log_info(logger, "%d, %s", dato->num, dato->mensaje);
 }

@@ -1,44 +1,36 @@
-01:40:49 **** Incremental Build of configuration Debug for project shared ****
+23:06:29 **** Incremental Build of configuration Debug for project shared ****
 make all 
-make: Nothing to be done for 'all'.
-01:40:51 **** Incremental Build of configuration Debug for project shared ****
-make all 
-make: Nothing to be done for 'all'.
-01:40:53 **** Incremental Build of configuration Debug for project cliente ****
-make all 
-Building file: ../src/cliente.c
+Building file: ../shared/shared.c
 Invoking: GCC C Compiler
-gcc -I"/home/utnso/Documents/pruebas/shared" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cliente.d" -MT"src/cliente.o" -o "src/cliente.o" "../src/cliente.c"
-../src/cliente.c: In function ‘main’:
-../src/cliente.c:12:36: warning: passing argument 3 of ‘crear_conexion’ makes pointer from integer without a cast [-Wint-conversion]
-   12 |         crear_conexion(ip, puerto, cliente_fd);
-      |                                    ^~~~~~~~~~
-      |                                    |
-      |                                    int
-In file included from ../src/cliente.c:1:
-../src/cliente.h:8:38: note: expected ‘int *’ but argument is of type ‘int’
-    8 | void  crear_conexion(char *, char *, int *);
-      |                                      ^~~~~
-../src/cliente.c:12:9: warning: ‘cliente_fd’ is used uninitialized [-Wuninitialized]
-   12 |         crear_conexion(ip, puerto, cliente_fd);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../src/cliente.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"shared/shared.d" -MT"shared/shared.o" -o "shared/shared.o" "../shared/shared.c"
+../shared/shared.c: In function ‘leer_config’:
+../shared/shared.c:4:13: warning: unused variable ‘b’ [-Wunused-variable]
+    4 |         int b;
+      |             ^
+Finished building: ../shared/shared.c
  
-Building target: cliente
+Building target: libshared.so
 Invoking: GCC C Linker
-gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lcommons
-Finished building target: cliente
+gcc -shared -o "libshared.so" ./shared/shared.o   
+Finished building target: libshared.so
  
-01:41:06 **** Incremental Build of configuration Debug for project shared ****
+23:06:32 **** Incremental Build of configuration Debug for project shared ****
 make all 
-make: Nothing to be done for 'all'.
-01:41:08 **** Incremental Build of configuration Debug for project servidor ****
-make all 
-make: Nothing to be done for 'all'.
-01:41:44 **** Incremental Build of configuration Debug for project shared ****
-make all 
-make: Nothing to be done for 'all'.
-01:41:45 **** Incremental Build of configuration Debug for project cliente ****
+Building file: ../shared/shared.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"shared/shared.d" -MT"shared/shared.o" -o "shared/shared.o" "../shared/shared.c"
+../shared/shared.c: In function ‘leer_config’:
+../shared/shared.c:4:13: warning: unused variable ‘b’ [-Wunused-variable]
+    4 |         int b;
+      |             ^
+Finished building: ../shared/shared.c
+ 
+Building target: libshared.so
+Invoking: GCC C Linker
+gcc -shared -o "libshared.so" ./shared/shared.o   
+Finished building target: libshared.so
+ 
+23:06:34 **** Incremental Build of configuration Debug for project cliente ****
 make all 
 Building file: ../src/cliente.c
 Invoking: GCC C Compiler
@@ -47,6 +39,6 @@ Finished building: ../src/cliente.c
  
 Building target: cliente
 Invoking: GCC C Linker
-gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lcommons
+gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lreadline -lcommons
 Finished building target: cliente
  

@@ -1,9 +1,0 @@
-#ifndef SERVIDOR_H_
-#define SERVIDOR_H_
-
-#define MAX_CON 10; // maxima cantidad de conexiones entrantes
-
-// Prototipos
-int inicializar_sv();
-
-#endif /* SERVIDOR_H_ */

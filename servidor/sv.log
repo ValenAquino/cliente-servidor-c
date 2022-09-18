@@ -444,3 +444,215 @@
 [INFO] 01:41:12:081 SERVIDOR/(17433:17433): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
 [INFO] 01:41:59:326 SERVIDOR/(17433:17433): Se ha conectado un cliiente
 [INFO] 01:41:59:326 SERVIDOR/(17433:17433): 14, Valentin
+[TRACE] 20:56:04:683 SERVIDOR/(17574:17574): logger inizializado
+[TRACE] 20:56:04:686 SERVIDOR/(17574:17574): config inizializado
+[DEBUG] 20:56:04:686 SERVIDOR/(17574:17574): ip: 127.0.0.1
+[DEBUG] 20:56:04:686 SERVIDOR/(17574:17574): puerto: 4444
+[TRACE] 20:56:04:686 SERVIDOR/(17574:17574): Se ha creado el socket pasivo
+[TRACE] 20:56:04:686 SERVIDOR/(17574:17574): Se ha asignado el puerto: 4444
+[INFO] 20:56:04:686 SERVIDOR/(17574:17574): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 20:56:20:372 SERVIDOR/(17574:17574): Se ha conectado un cliiente
+[INFO] 20:56:20:372 SERVIDOR/(17574:17574): 21, Valentin
+[TRACE] 20:56:27:394 SERVIDOR/(17580:17580): logger inizializado
+[TRACE] 20:56:27:395 SERVIDOR/(17580:17580): config inizializado
+[DEBUG] 20:56:27:395 SERVIDOR/(17580:17580): ip: 127.0.0.1
+[DEBUG] 20:56:27:395 SERVIDOR/(17580:17580): puerto: 4444
+[TRACE] 20:56:27:395 SERVIDOR/(17580:17580): Se ha creado el socket pasivo
+[TRACE] 20:56:27:395 SERVIDOR/(17580:17580): Se ha asignado el puerto: 4444
+[INFO] 20:56:27:395 SERVIDOR/(17580:17580): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 20:56:29:435 SERVIDOR/(17580:17580): Se ha conectado un cliiente
+[INFO] 20:56:29:435 SERVIDOR/(17580:17580): 21, Valentin
+[TRACE] 23:25:59:205 SERVIDOR/(20127:20127): logger inizializado
+[TRACE] 23:25:59:205 SERVIDOR/(20127:20127): config inizializado
+[DEBUG] 23:25:59:205 SERVIDOR/(20127:20127): ip: 127.0.0.1
+[DEBUG] 23:25:59:205 SERVIDOR/(20127:20127): puerto: 4444
+[TRACE] 23:25:59:205 SERVIDOR/(20127:20127): Se ha creado el socket pasivo
+[TRACE] 23:25:59:206 SERVIDOR/(20127:20127): Se ha asignado el puerto: 4444
+[INFO] 23:25:59:206 SERVIDOR/(20127:20127): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:26:01:590 SERVIDOR/(20127:20127): Se ha conectado un cliiente
+[INFO] 23:26:01:590 SERVIDOR/(20127:20127): 21, Valentin
+[TRACE] 23:28:34:797 SERVIDOR/(20395:20395): logger inizializado
+[TRACE] 23:28:34:797 SERVIDOR/(20395:20395): config inizializado
+[DEBUG] 23:28:34:797 SERVIDOR/(20395:20395): ip: 127.0.0.1
+[DEBUG] 23:28:34:797 SERVIDOR/(20395:20395): puerto: 4444
+[TRACE] 23:28:34:797 SERVIDOR/(20395:20395): Se ha creado el socket pasivo
+[TRACE] 23:28:34:797 SERVIDOR/(20395:20395): Se ha asignado el puerto: 4444
+[INFO] 23:28:34:797 SERVIDOR/(20395:20395): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:28:35:965 SERVIDOR/(20395:20395): Se ha conectado un cliiente
+[INFO] 23:28:35:965 SERVIDOR/(20395:20395): 21, Valentin
+[TRACE] 23:35:29:020 SERVIDOR/(20814:20814): logger inizializado
+[TRACE] 23:35:29:021 SERVIDOR/(20814:20814): config inizializado
+[DEBUG] 23:35:29:021 SERVIDOR/(20814:20814): ip: 127.0.0.1
+[DEBUG] 23:35:29:021 SERVIDOR/(20814:20814): puerto: 4444
+[TRACE] 23:35:29:021 SERVIDOR/(20814:20814): Se ha creado el socket pasivo
+[TRACE] 23:35:29:021 SERVIDOR/(20814:20814): Se ha asignado el puerto: 4444
+[INFO] 23:35:29:021 SERVIDOR/(20814:20814): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:35:30:997 SERVIDOR/(20814:20814): Se ha conectado un cliiente
+[INFO] 23:35:30:997 SERVIDOR/(20814:20814): 21, Valentin
+[TRACE] 23:43:19:196 SERVIDOR/(21307:21307): logger inizializado
+[TRACE] 23:43:19:196 SERVIDOR/(21307:21307): config inizializado
+[DEBUG] 23:43:19:196 SERVIDOR/(21307:21307): ip: 127.0.0.1
+[DEBUG] 23:43:19:196 SERVIDOR/(21307:21307): puerto: 4444
+[TRACE] 23:43:19:196 SERVIDOR/(21307:21307): Se ha creado el socket pasivo
+[TRACE] 23:43:19:196 SERVIDOR/(21307:21307): Se ha asignado el puerto: 4444
+[INFO] 23:43:19:196 SERVIDOR/(21307:21307): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:43:20:596 SERVIDOR/(21307:21307): Se ha conectado un cliiente
+[INFO] 23:43:20:596 SERVIDOR/(21307:21307): 21, Valentin
+[TRACE] 23:44:02:108 SERVIDOR/(21456:21456): logger inizializado
+[TRACE] 23:44:02:108 SERVIDOR/(21456:21456): config inizializado
+[DEBUG] 23:44:02:108 SERVIDOR/(21456:21456): ip: 127.0.0.1
+[DEBUG] 23:44:02:108 SERVIDOR/(21456:21456): puerto: 4444
+[TRACE] 23:44:02:108 SERVIDOR/(21456:21456): Se ha creado el socket pasivo
+[TRACE] 23:44:02:108 SERVIDOR/(21456:21456): Se ha asignado el puerto: 4444
+[INFO] 23:44:02:108 SERVIDOR/(21456:21456): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:44:05:532 SERVIDOR/(21456:21456): Se ha conectado un cliiente
+[INFO] 23:44:05:532 SERVIDOR/(21456:21456): 21, Valentin
+[TRACE] 01:34:42:657 SERVIDOR/(25730:25730): logger inizializado
+[TRACE] 01:34:42:693 SERVIDOR/(25730:25730): config inizializado
+[DEBUG] 01:34:42:693 SERVIDOR/(25730:25730): ip: 127.0.0.1
+[DEBUG] 01:34:42:693 SERVIDOR/(25730:25730): puerto: 4444
+[TRACE] 01:34:42:693 SERVIDOR/(25730:25730): Se ha creado el socket pasivo
+[TRACE] 01:34:42:693 SERVIDOR/(25730:25730): Se ha asignado el puerto: 4444
+[INFO] 01:34:42:693 SERVIDOR/(25730:25730): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 01:34:44:217 SERVIDOR/(25730:25730): Se ha conectado un cliiente
+[INFO] 01:34:44:217 SERVIDOR/(25730:25730): 21, Valentin
+[TRACE] 18:12:51:280 SERVIDOR/(10009:10009): logger inizializado
+[TRACE] 18:12:51:281 SERVIDOR/(10009:10009): config inizializado
+[DEBUG] 18:12:51:281 SERVIDOR/(10009:10009): ip: 127.0.0.1
+[DEBUG] 18:12:51:281 SERVIDOR/(10009:10009): puerto: 4444
+[TRACE] 18:12:51:281 SERVIDOR/(10009:10009): Se ha creado el socket pasivo
+[TRACE] 18:12:51:281 SERVIDOR/(10009:10009): Se ha asignado el puerto: 4444
+[INFO] 18:12:51:281 SERVIDOR/(10009:10009): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 18:03:09:944 SERVIDOR/(11430:11430): logger inizializado
+[TRACE] 18:03:09:944 SERVIDOR/(11430:11430): config inizializado
+[DEBUG] 18:03:09:944 SERVIDOR/(11430:11430): ip: 127.0.0.1
+[DEBUG] 18:03:09:944 SERVIDOR/(11430:11430): puerto: 4444
+[TRACE] 18:03:09:944 SERVIDOR/(11430:11430): Se ha creado el socket pasivo
+[TRACE] 18:03:09:944 SERVIDOR/(11430:11430): Se ha asignado el puerto: 4444
+[INFO] 18:03:09:944 SERVIDOR/(11430:11430): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 18:04:48:844 SERVIDOR/(11462:11462): logger inizializado
+[TRACE] 18:04:48:845 SERVIDOR/(11462:11462): config inizializado
+[DEBUG] 18:04:48:846 SERVIDOR/(11462:11462): ip: 127.0.0.1
+[DEBUG] 18:04:48:846 SERVIDOR/(11462:11462): puerto: 4444
+[TRACE] 18:04:48:846 SERVIDOR/(11462:11462): Se ha creado el socket pasivo
+[TRACE] 18:04:48:846 SERVIDOR/(11462:11462): Se ha asignado el puerto: 4444
+[INFO] 18:04:48:846 SERVIDOR/(11462:11462): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 18:07:45:661 SERVIDOR/(11484:11484): logger inizializado
+[TRACE] 18:07:45:661 SERVIDOR/(11484:11484): config inizializado
+[DEBUG] 18:07:45:661 SERVIDOR/(11484:11484): ip: 127.0.0.1
+[DEBUG] 18:07:45:661 SERVIDOR/(11484:11484): puerto: 4444
+[TRACE] 18:07:45:661 SERVIDOR/(11484:11484): Se ha creado el socket pasivo
+[TRACE] 18:07:45:661 SERVIDOR/(11484:11484): Se ha asignado el puerto: 4444
+[INFO] 18:07:45:661 SERVIDOR/(11484:11484): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 11:35:18:094 SERVIDOR/(16172:16172): logger inizializado
+[TRACE] 11:35:18:095 SERVIDOR/(16172:16172): config inizializado
+[DEBUG] 11:35:18:095 SERVIDOR/(16172:16172): ip: 127.0.0.1
+[DEBUG] 11:35:18:095 SERVIDOR/(16172:16172): puerto: 4444
+[TRACE] 11:35:18:095 SERVIDOR/(16172:16172): Se ha creado el socket pasivo
+[TRACE] 11:35:18:095 SERVIDOR/(16172:16172): Se ha asignado el puerto: 4444
+[INFO] 11:35:18:095 SERVIDOR/(16172:16172): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 12:47:03:946 SERVIDOR/(16954:16954): logger inizializado
+[TRACE] 12:47:03:946 SERVIDOR/(16954:16954): config inizializado
+[DEBUG] 12:47:03:946 SERVIDOR/(16954:16954): ip: 127.0.0.1
+[DEBUG] 12:47:03:946 SERVIDOR/(16954:16954): puerto: 4444
+[TRACE] 12:47:03:946 SERVIDOR/(16954:16954): Se ha creado el socket pasivo
+[TRACE] 12:47:03:946 SERVIDOR/(16954:16954): Se ha asignado el puerto: 4444
+[INFO] 12:47:03:946 SERVIDOR/(16954:16954): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 22:29:53:328 SERVIDOR/(8318:8318): logger inizializado
+[TRACE] 22:29:53:331 SERVIDOR/(8318:8318): config inizializado
+[DEBUG] 22:29:53:331 SERVIDOR/(8318:8318): ip: 127.0.0.1
+[DEBUG] 22:29:53:331 SERVIDOR/(8318:8318): puerto: 4444
+[TRACE] 22:29:53:331 SERVIDOR/(8318:8318): Se ha creado el socket pasivo
+[TRACE] 22:29:53:331 SERVIDOR/(8318:8318): Se ha asignado el puerto: 4444
+[INFO] 22:29:53:331 SERVIDOR/(8318:8318): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 22:30:52:799 SERVIDOR/(8405:8405): logger inizializado
+[TRACE] 22:30:52:799 SERVIDOR/(8405:8405): config inizializado
+[DEBUG] 22:30:52:799 SERVIDOR/(8405:8405): ip: 127.0.0.1
+[DEBUG] 22:30:52:799 SERVIDOR/(8405:8405): puerto: 4444
+[TRACE] 22:30:52:799 SERVIDOR/(8405:8405): Se ha creado el socket pasivo
+[TRACE] 22:30:52:799 SERVIDOR/(8405:8405): Se ha asignado el puerto: 4444
+[INFO] 22:30:52:799 SERVIDOR/(8405:8405): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 22:31:10:087 SERVIDOR/(8472:8472): logger inizializado
+[TRACE] 22:31:10:087 SERVIDOR/(8472:8472): config inizializado
+[DEBUG] 22:31:10:087 SERVIDOR/(8472:8472): ip: 127.0.0.1
+[DEBUG] 22:31:10:087 SERVIDOR/(8472:8472): puerto: 4444
+[TRACE] 22:31:10:087 SERVIDOR/(8472:8472): Se ha creado el socket pasivo
+[TRACE] 22:31:10:087 SERVIDOR/(8472:8472): Se ha asignado el puerto: 4444
+[INFO] 22:31:10:087 SERVIDOR/(8472:8472): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 22:57:38:775 SERVIDOR/(8665:8665): logger inizializado
+[TRACE] 22:57:38:775 SERVIDOR/(8665:8665): config inizializado
+[DEBUG] 22:57:38:775 SERVIDOR/(8665:8665): ip: 127.0.0.1
+[DEBUG] 22:57:38:775 SERVIDOR/(8665:8665): puerto: 4444
+[TRACE] 22:57:38:775 SERVIDOR/(8665:8665): Se ha creado el socket pasivo
+[TRACE] 22:57:38:775 SERVIDOR/(8665:8665): Se ha asignado el puerto: 4444
+[INFO] 22:57:38:775 SERVIDOR/(8665:8665): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 23:00:24:391 SERVIDOR/(8882:8882): logger inizializado
+[TRACE] 23:00:24:391 SERVIDOR/(8882:8882): config inizializado
+[DEBUG] 23:00:24:391 SERVIDOR/(8882:8882): ip: 127.0.0.1
+[DEBUG] 23:00:24:391 SERVIDOR/(8882:8882): puerto: 4444
+[TRACE] 23:00:24:391 SERVIDOR/(8882:8882): Se ha creado el socket pasivo
+[TRACE] 23:00:24:391 SERVIDOR/(8882:8882): Se ha asignado el puerto: 4444
+[INFO] 23:00:24:391 SERVIDOR/(8882:8882): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:00:27:100 SERVIDOR/(8882:8882): Se ha conectado un cliiente
+[INFO] 23:00:27:100 SERVIDOR/(8882:8882): 21, Valentin
+[TRACE] 23:04:36:569 SERVIDOR/(9920:9920): logger inizializado
+[TRACE] 23:04:36:571 SERVIDOR/(9920:9920): config inizializado
+[DEBUG] 23:04:36:571 SERVIDOR/(9920:9920): ip: 127.0.0.1
+[DEBUG] 23:04:36:571 SERVIDOR/(9920:9920): puerto: 4444
+[TRACE] 23:04:36:571 SERVIDOR/(9920:9920): Se ha creado el socket pasivo
+[TRACE] 23:04:36:571 SERVIDOR/(9920:9920): Se ha asignado el puerto: 4444
+[INFO] 23:04:36:571 SERVIDOR/(9920:9920): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[TRACE] 23:04:43:999 SERVIDOR/(9931:9931): logger inizializado
+[TRACE] 23:04:43:999 SERVIDOR/(9931:9931): config inizializado
+[DEBUG] 23:04:43:999 SERVIDOR/(9931:9931): ip: 127.0.0.1
+[DEBUG] 23:04:43:999 SERVIDOR/(9931:9931): puerto: 4444
+[TRACE] 23:04:43:999 SERVIDOR/(9931:9931): Se ha creado el socket pasivo
+[TRACE] 23:04:43:999 SERVIDOR/(9931:9931): Se ha asignado el puerto: 4444
+[INFO] 23:04:43:999 SERVIDOR/(9931:9931): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:04:47:186 SERVIDOR/(9931:9931): Se ha conectado un cliiente
+[INFO] 23:04:50:967 SERVIDOR/(9931:9931): 21, Hola
+[TRACE] 23:07:32:209 SERVIDOR/(10289:10289): logger inizializado
+[TRACE] 23:07:32:209 SERVIDOR/(10289:10289): config inizializado
+[DEBUG] 23:07:32:209 SERVIDOR/(10289:10289): ip: 127.0.0.1
+[DEBUG] 23:07:32:209 SERVIDOR/(10289:10289): puerto: 4444
+[TRACE] 23:07:32:209 SERVIDOR/(10289:10289): Se ha creado el socket pasivo
+[TRACE] 23:07:32:209 SERVIDOR/(10289:10289): Se ha asignado el puerto: 4444
+[INFO] 23:07:32:209 SERVIDOR/(10289:10289): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:07:34:379 SERVIDOR/(10289:10289): Se ha conectado un cliiente
+[INFO] 23:07:43:734 SERVIDOR/(10289:10289): 21, Este es e
+[TRACE] 23:49:59:759 SERVIDOR/(1613:1613): logger inizializado
+[TRACE] 23:49:59:761 SERVIDOR/(1613:1613): config inizializado
+[DEBUG] 23:49:59:761 SERVIDOR/(1613:1613): ip: 127.0.0.1
+[DEBUG] 23:49:59:761 SERVIDOR/(1613:1613): puerto: 4444
+[TRACE] 23:49:59:761 SERVIDOR/(1613:1613): Se ha creado el socket pasivo
+[TRACE] 23:49:59:761 SERVIDOR/(1613:1613): Se ha asignado el puerto: 4444
+[INFO] 23:49:59:761 SERVIDOR/(1613:1613): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:50:09:342 SERVIDOR/(1613:1613): Se ha conectado un cliiente
+[INFO] 23:50:21:550 SERVIDOR/(1613:1613): 21, Hola12345
+[TRACE] 23:57:16:237 SERVIDOR/(2062:2062): logger inizializado
+[TRACE] 23:57:16:237 SERVIDOR/(2062:2062): config inizializado
+[DEBUG] 23:57:16:237 SERVIDOR/(2062:2062): ip: 127.0.0.1
+[DEBUG] 23:57:16:237 SERVIDOR/(2062:2062): puerto: 4444
+[TRACE] 23:57:16:237 SERVIDOR/(2062:2062): Se ha creado el socket pasivo
+[TRACE] 23:57:16:237 SERVIDOR/(2062:2062): Se ha asignado el puerto: 4444
+[INFO] 23:57:16:237 SERVIDOR/(2062:2062): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:57:19:999 SERVIDOR/(2062:2062): Se ha conectado un cliiente
+[INFO] 23:57:29:130 SERVIDOR/(2062:2062): 1634496360,  mensaje 123456789
+[TRACE] 23:57:36:911 SERVIDOR/(2064:2064): logger inizializado
+[TRACE] 23:57:36:911 SERVIDOR/(2064:2064): config inizializado
+[DEBUG] 23:57:36:911 SERVIDOR/(2064:2064): ip: 127.0.0.1
+[DEBUG] 23:57:36:911 SERVIDOR/(2064:2064): puerto: 4444
+[TRACE] 23:57:36:911 SERVIDOR/(2064:2064): Se ha creado el socket pasivo
+[TRACE] 23:57:36:911 SERVIDOR/(2064:2064): Se ha asignado el puerto: 4444
+[INFO] 23:57:36:911 SERVIDOR/(2064:2064): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:57:38:136 SERVIDOR/(2064:2064): Se ha conectado un cliiente
+[INFO] 23:58:09:558 SERVIDOR/(2064:2064): 1634496360,  estoy escribiendo un mensaje super re largo, en teoria deberia poder recibir todos y cada uno de los caracteres que estoy escrbiendo. Un saludo!
+[TRACE] 23:59:55:205 SERVIDOR/(2125:2125): logger inizializado
+[TRACE] 23:59:55:205 SERVIDOR/(2125:2125): config inizializado
+[DEBUG] 23:59:55:205 SERVIDOR/(2125:2125): ip: 127.0.0.1
+[DEBUG] 23:59:55:205 SERVIDOR/(2125:2125): puerto: 4444
+[TRACE] 23:59:55:205 SERVIDOR/(2125:2125): Se ha creado el socket pasivo
+[TRACE] 23:59:55:205 SERVIDOR/(2125:2125): Se ha asignado el puerto: 4444
+[INFO] 23:59:55:205 SERVIDOR/(2125:2125): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 23:59:58:142 SERVIDOR/(2125:2125): Se ha conectado un cliiente
+[INFO] 00:00:18:999 SERVIDOR/(2125:2125): 150, Hola estoy escribiendo un mensaje super re largo, en teoria deberia poder recibir todos y cada uno de los caracteres que estoy escrbiendo. Un saludo!

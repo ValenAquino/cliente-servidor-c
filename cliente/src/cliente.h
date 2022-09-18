@@ -3,6 +3,7 @@
 
 // Bibliotecas
 #include <shared/shared.h>
+#include <readline/readline.h>
 
 // Prototipos
 void  crear_conexion(char *, char *, int *);

@@ -15,11 +15,16 @@
 #include<unistd.h>
 #include<netdb.h>
 
+//Hilos
+#include<pthread.h>
+
 //Commons
 #include<commons/log.h>
 #include<commons/config.h>
 #include<commons/collections/list.h>
 #include<commons/string.h>
+
+t_log* logger;
 
 // Estructuras
 typedef enum {
@@ -40,7 +45,7 @@ typedef struct {
 
 typedef struct {
 	int num;
-	char *nombre;
+	char *mensaje;
 } tsDatos;
 
 // Prototipos

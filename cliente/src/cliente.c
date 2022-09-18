@@ -46,15 +46,15 @@ void  crear_conexion(char *ip, char *puerto, int *cliente_fd) {
 }
 
 void cargar_struct(tsDatos *dato) {
-	dato->num = 14;
-	dato->nombre = "Valentin";
+	dato->mensaje = readline("Ingrese un mensaje: ");
+	dato->num = strlen(dato->mensaje) + 1; // 1 por el '/0'
 
-	log_debug(logger, "%d, %s", dato->num, dato->nombre);
+	log_debug(logger, "%d, %s", dato->num, dato->mensaje);
 }
 
 void enviar(int cliente_fd, tsDatos dato) {
 	void *stream = serializar(dato);
-	int size = 2*sizeof(int) + sizeof(dato.nombre); // 1 por el '/0'
+	int size = sizeof(int) + dato.num;
 
 	send(cliente_fd, stream, size, 0);
 	free(stream);
@@ -62,16 +62,12 @@ void enviar(int cliente_fd, tsDatos dato) {
 
 void* serializar(tsDatos dato) {
 	void *stream = malloc(sizeof(dato));
-	int nombre_size = sizeof(dato.nombre) + 1;
 
 	int desplazamiento = 0;
-	memcpy(stream + desplazamiento, &nombre_size, sizeof(int));
-
-	desplazamiento += sizeof(int);
 	memcpy(stream + desplazamiento, &dato.num, sizeof(int));
 
 	desplazamiento += sizeof(int);
-	memcpy(stream + desplazamiento, dato.nombre, nombre_size);
+	memcpy(stream + desplazamiento, dato.mensaje, dato.num);
 
 	return stream;
 }

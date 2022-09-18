@@ -1,6 +1,6 @@
-01:41:08 **** Incremental Build of configuration Debug for project servidor ****
+18:07:43 **** Incremental Build of configuration Debug for project servidor ****
 make all 
 make: Nothing to be done for 'all'.
 
-01:41:10 Build Finished. 0 errors, 0 warnings. (took 1s.468ms)
+18:07:44 Build Finished. 0 errors, 0 warnings. (took 763ms)
 

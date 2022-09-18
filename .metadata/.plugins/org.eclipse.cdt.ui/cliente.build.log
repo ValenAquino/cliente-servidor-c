@@ -1,4 +1,4 @@
-01:41:45 **** Incremental Build of configuration Debug for project cliente ****
+23:06:34 **** Incremental Build of configuration Debug for project cliente ****
 make all 
 Building file: ../src/cliente.c
 Invoking: GCC C Compiler
@@ -7,9 +7,9 @@ Finished building: ../src/cliente.c
  
 Building target: cliente
 Invoking: GCC C Linker
-gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lcommons
+gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lreadline -lcommons
 Finished building target: cliente
  
 
-01:41:47 Build Finished. 0 errors, 0 warnings. (took 1s.702ms)
+23:06:35 Build Finished. 0 errors, 0 warnings. (took 1s.730ms)
 

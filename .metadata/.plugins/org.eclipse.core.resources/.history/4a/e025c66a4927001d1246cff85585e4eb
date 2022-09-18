@@ -1,7 +1,0 @@
-#ifndef CLIENTE_H_
-#define CLIENTE_H_
-
-// Prototipos
-int crear_conexion(char *, char *);
-
-#endif /* CLIENTE_H_ */

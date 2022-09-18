@@ -9,6 +9,6 @@
 void inicializar_modulo(char *, char *);
 int iniciar_sv(char *, char *);
 int esperar_cliente();
-void recibir_paquete(cliente_fd);
+void recibir_paquete(int cliente_fd);
 
 #endif /* SERVIDOR_H_ */
