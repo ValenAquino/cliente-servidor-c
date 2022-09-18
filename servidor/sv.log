@@ -665,3 +665,10 @@
 [INFO] 01:20:46:813 SERVIDOR/(1829:1829): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
 [INFO] 01:21:28:964 SERVIDOR/(1829:1829): Se ha conectado un cliiente
 [INFO] 01:21:51:025 SERVIDOR/(1829:1829): 42, Hola etoy practicando a ver que onda esto
+[TRACE] 04:02:31:132 SERVIDOR/(2252:2252): logger inizializado
+[TRACE] 04:02:31:132 SERVIDOR/(2252:2252): config inizializado
+[DEBUG] 04:02:31:132 SERVIDOR/(2252:2252): ip: 127.0.0.1
+[DEBUG] 04:02:31:132 SERVIDOR/(2252:2252): puerto: 4444
+[TRACE] 04:02:31:132 SERVIDOR/(2252:2252): Se ha creado el socket pasivo
+[TRACE] 04:02:31:132 SERVIDOR/(2252:2252): Se ha asignado el puerto: 4444
+[INFO] 04:02:31:132 SERVIDOR/(2252:2252): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444

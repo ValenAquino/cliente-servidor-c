@@ -42,10 +42,10 @@ dependents:
 	-cd /home/utnso/Documents/pruebas/shared/Debug && $(MAKE) all
 
 # Tool invocations
-cliente: $(OBJS) $(USER_OBJS) /home/utnso/Documents/pruebas/shared/Debug/libshared.so makefile objects.mk $(OPTIONAL_TOOL_DEPS)
+cliente: $(OBJS) $(USER_OBJS) ./shared/Debug/libshared.so makefile objects.mk $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/Documents/pruebas/shared/Debug" -o "cliente" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"./shared/Debug" -o "cliente" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -55,6 +55,6 @@ clean:
 	-@echo ' '
 
 .PHONY: all clean dependents main-build
-/home/utnso/Documents/pruebas/shared/Debug/libshared.so:
+./shared/Debug/libshared.so:
 
 -include ../makefile.targets

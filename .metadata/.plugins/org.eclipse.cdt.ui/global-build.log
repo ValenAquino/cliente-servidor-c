@@ -1,3 +1,26 @@
-02:49:28 **** Incremental Build of configuration Debug for project shared ****
+11:38:05 **** Build of configuration Debug for project shared ****
+make all 
+Building file: ../shared/shared.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -fPIC -MMD -MP -MF"shared/shared.d" -MT"shared/shared.o" -o "shared/shared.o" "../shared/shared.c"
+../shared/shared.c: In function ‘leer_config’:
+../shared/shared.c:4:13: warning: unused variable ‘b’ [-Wunused-variable]
+    4 |         int b;
+      |             ^
+Finished building: ../shared/shared.c
+ 
+Building target: libshared.so
+Invoking: GCC C Linker
+gcc -shared -o "libshared.so" ./shared/shared.o   
+Finished building target: libshared.so
+ 
+11:38:06 **** Incremental Build of configuration Debug for project shared ****
 make all 
 make: Nothing to be done for 'all'.
+11:38:07 **** Build of configuration Debug for project cliente ****
+make all 
+Building target: cliente
+Invoking: GCC C Linker
+gcc -L"./shared/Debug" -o "cliente" ./src/cliente.o   -lshared -lreadline -lcommons
+Finished building target: cliente
+ 

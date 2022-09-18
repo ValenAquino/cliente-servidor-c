@@ -301,3 +301,8 @@
 [DEBUG] 01:21:28:964 CLIENTE/(1861:1861): puerto: 4444
 [INFO] 01:21:28:964 CLIENTE/(1861:1861): Se ha realizado la conexion con exito
 [DEBUG] 01:21:51:025 CLIENTE/(1861:1861): 42, Hola etoy practicando a ver que onda esto
+[TRACE] 11:38:38:352 CLIENTE/(2057:2057): logger inizializado
+[TRACE] 11:38:38:354 CLIENTE/(2057:2057): config inizializado
+[DEBUG] 11:38:38:354 CLIENTE/(2057:2057): ip: 127.0.0.1
+[DEBUG] 11:38:38:354 CLIENTE/(2057:2057): puerto: 4444
+[INFO] 11:38:38:354 CLIENTE/(2057:2057): no se ha podido establecer una conexion con el servidor

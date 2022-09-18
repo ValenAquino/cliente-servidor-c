@@ -1,4 +1,4 @@
-H_SRCS=$(shell cd shared && find . -iname "*.h" | tr '\n' ' ')
+H_SRCS=$(shell find . -iname "*.h" | tr '\n' ' ')
 
 ifneq ($(shell id -un),root)
 SUDO=sudo
@@ -16,9 +16,11 @@ compilar:
 	@echo "Compilando SERVIDOR"
 	@make all -C ./servidor/Debug
 	@echo "----------------- \n"
+mos:
+	@echo $(H_SRCS)
 
 install: all
-	$(SUDO) cp -u build/libshared.so /usr/lib
+	$(SUDO) cp -u ./shared/Debug/libshared.so /usr/lib
 	$(SUDO) cp --parents -u $(H_SRCS) /usr/include
 
 uninstall:
