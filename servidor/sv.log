@@ -656,3 +656,12 @@
 [INFO] 23:59:55:205 SERVIDOR/(2125:2125): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
 [INFO] 23:59:58:142 SERVIDOR/(2125:2125): Se ha conectado un cliiente
 [INFO] 00:00:18:999 SERVIDOR/(2125:2125): 150, Hola estoy escribiendo un mensaje super re largo, en teoria deberia poder recibir todos y cada uno de los caracteres que estoy escrbiendo. Un saludo!
+[TRACE] 01:20:46:810 SERVIDOR/(1829:1829): logger inizializado
+[TRACE] 01:20:46:811 SERVIDOR/(1829:1829): config inizializado
+[DEBUG] 01:20:46:812 SERVIDOR/(1829:1829): ip: 127.0.0.1
+[DEBUG] 01:20:46:812 SERVIDOR/(1829:1829): puerto: 4444
+[TRACE] 01:20:46:812 SERVIDOR/(1829:1829): Se ha creado el socket pasivo
+[TRACE] 01:20:46:813 SERVIDOR/(1829:1829): Se ha asignado el puerto: 4444
+[INFO] 01:20:46:813 SERVIDOR/(1829:1829): Servidor escuchando en el IP: 127.0.0.1 PUERTO: 4444
+[INFO] 01:21:28:964 SERVIDOR/(1829:1829): Se ha conectado un cliiente
+[INFO] 01:21:51:025 SERVIDOR/(1829:1829): 42, Hola etoy practicando a ver que onda esto

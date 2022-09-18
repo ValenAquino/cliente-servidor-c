@@ -295,3 +295,9 @@
 [DEBUG] 23:59:58:142 CLIENTE/(2126:2126): puerto: 4444
 [INFO] 23:59:58:142 CLIENTE/(2126:2126): Se ha realizado la conexion con exito
 [DEBUG] 00:00:18:999 CLIENTE/(2126:2126): 150, Hola estoy escribiendo un mensaje super re largo, en teoria deberia poder recibir todos y cada uno de los caracteres que estoy escrbiendo. Un saludo!
+[TRACE] 01:21:28:962 CLIENTE/(1861:1861): logger inizializado
+[TRACE] 01:21:28:964 CLIENTE/(1861:1861): config inizializado
+[DEBUG] 01:21:28:964 CLIENTE/(1861:1861): ip: 127.0.0.1
+[DEBUG] 01:21:28:964 CLIENTE/(1861:1861): puerto: 4444
+[INFO] 01:21:28:964 CLIENTE/(1861:1861): Se ha realizado la conexion con exito
+[DEBUG] 01:21:51:025 CLIENTE/(1861:1861): 42, Hola etoy practicando a ver que onda esto
