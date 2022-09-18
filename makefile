@@ -1,4 +1,4 @@
-H_SRCS=$(shell  find ./shared -type f -iname "*.h" -exec basename {} \;)
+H_SRCS=$(shell cd shared && find . -iname "*.h" | tr '\n' ' ')
 
 ifneq ($(shell id -un),root)
 SUDO=sudo
